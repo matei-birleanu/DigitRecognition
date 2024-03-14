@@ -1,0 +1,50 @@
+
+README TEMA 2 MN
+Bîrleanu Teodor Matei 314 CA
+
+    TASK 1
+	Am initilizat o matrice de marimea matricei photo cu 0 dupa care am trecut
+o la tipul de date 'double'.  Am aplictcat functia 'svd' asupra matricei photo
+urmand ca matricele rezultante U, S, V sa le reduc pana pana la indicele k si 
+sa le inmultesc pentru a obtine matricea new_X ceruta.
+    TASK 2
+    	Am initilizat o matrice de marimea matricei photo cu 0 dupa care am trecut
+o la tipul de date 'double'. Am folosit functia mean pentru a calcula media 
+fiecarei linii dupa care in matricea normalized_photo am stocat matricea 
+obtinuta prin scaderea mediei. Am aplicat functia 'svd' dupa care am aplicat
+operatiile explicate in enunt (Construirea matricei W din primele pcs coloane
+ ale lui V) etc.
+    TASK 3
+    	Am initilizat o matrice de marimea matricei photo cu 0 dupa care am trecut
+o la tipul de date 'double'. Am folosit functia mean pentru a calcula media 
+fiecarei linii dupa care in matricea normalized_photo am stocat matricea 
+obtinuta prin scaderea mediei. Calculez valorile și vectorii proprii ai 
+matricei de covarianță cu ajutorul functiei 'eig'.Ordonez descrescător 
+valorile proprii cu ajutorul functiei 'sort'
+    TASK 4
+    FUNCTIA prepare_data
+    	Incarc datele cu functia 'load' dupa care salvez în matricea train_mat
+primele no_train_images linii.
+    FUNCTIA visualise_image
+    	Initialiezez matricea finala dupa care citesc din matricea de
+antrenament linia cu indiciele number dupa care o trasnform intr o 
+matrice de 28x28 si o traspun.
+    FUNCTIA magic_with_pca
+    	Initializez matricele cu care lucrez (ex train, miu). Calculeaz 
+matricea de covarianta si obtin vectorii si valorile proprii 
+ale matricei. Creez matricea data dupa cum este explicat in TODO.
+    FUNCTIA prepare_photo
+    	Inversez pixelii imaginii im dupa care transpun imaginea 
+si o trasnform intr un vector linie.
+    FUNCTIA KNN
+    	Calculez distanta Euclidiana intre fiecare rand si vectorul 
+de test dupa care ordonez distantele în ordine crescatoare si 
+retine primele k valori.
+    FUNCTIA classify_image
+    	Convertesc matricea im la tipul de date 'double' dupa care 
+aplic algoritmul PCA asupra datelor. Inmultesc cu matricea Vk pentru
+a schimba baza.
+    	
+    	
+	 	
+
